@@ -33,4 +33,4 @@ style.css is the style sheet fot the main page
 Database:
 Database uses an auto increment primary key
 innoDB is the chosen engine
-
+in the connection.php file edit the username and password variables to align to that of your database
