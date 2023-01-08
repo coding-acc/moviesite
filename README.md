@@ -20,3 +20,17 @@ For a XAMP stack, create a folder in Htdocs folder and access via the same proce
 Please note that the movielist_v2.php script is the main script. The login check has been averted by setting the session variable for the sake of easy demonstration.
 
 ***************************************
+Script explanation:
+log_page.php is the login page. Due to the stipulation of using specific login details the javascript input verification of passwords has been limited.
+movielist_v2.php is the main page that displays the interactive screens
+connection.php is the database connection script that connects to the MySQL database
+search.php is the script used to perform searches and show search suggestions - searching is done using similar name entries
+fav.php is the script used to handle adding and removing favorites
+favpage.php serves the favorites page to the user
+script.js is the script that handles asynchronous comms
+style.css is the style sheet fot the main page
+**************************************
+Database:
+Database uses an auto increment primary key
+innoDB is the chosen engine
+
